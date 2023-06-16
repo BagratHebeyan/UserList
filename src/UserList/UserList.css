@@ -1,0 +1,45 @@
+.container {
+    
+    display: flex;
+    justify-content: space-between;
+position: absolute;
+}
+
+.container-userList {
+    display: inline-block;
+    border: 1px aqua solid;
+    border-radius: 5px;
+    width: 200px;
+    background-color: chartreuse;
+}
+
+.container-userList-LastName {
+    display: flex;
+    justify-content: space-evenly;
+    color: blue;
+}
+
+.container-userList-data {
+    text-align: end;
+}
+
+.container-userList-data p {
+    margin-right: 8px;
+    color: blueviolet;
+}
+
+.max-width {
+    max-width: 90%;
+}
+.contact-userList-modal-card{
+    height: 400px;
+    width: 400px;
+    background-color: aqua;
+    border: 2px gray solid;
+    border-radius: 10%;
+    position: relative;
+}
+
+button{
+    background-color: chartreuse;
+}
